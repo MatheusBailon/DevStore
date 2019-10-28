@@ -1,0 +1,5 @@
+C:\Users\Curso\source\repos\DevStore\DevStore.Domain\bin\Debug\DevStore.Domain.dll
+C:\Users\Curso\source\repos\DevStore\DevStore.Domain\bin\Debug\DevStore.Domain.pdb
+C:\Users\Curso\source\repos\DevStore\DevStore.Domain\obj\Debug\DevStore.Domain.csprojAssemblyReference.cache
+C:\Users\Curso\source\repos\DevStore\DevStore.Domain\obj\Debug\DevStore.Domain.dll
+C:\Users\Curso\source\repos\DevStore\DevStore.Domain\obj\Debug\DevStore.Domain.pdb

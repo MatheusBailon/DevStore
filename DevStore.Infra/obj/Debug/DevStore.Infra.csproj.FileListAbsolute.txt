@@ -1,0 +1,13 @@
+C:\Users\Curso\source\repos\DevStore\DevStore.Infra\bin\Debug\DevStore.Infra.dll.config
+C:\Users\Curso\source\repos\DevStore\DevStore.Infra\bin\Debug\DevStore.Infra.dll
+C:\Users\Curso\source\repos\DevStore\DevStore.Infra\bin\Debug\DevStore.Infra.pdb
+C:\Users\Curso\source\repos\DevStore\DevStore.Infra\bin\Debug\DevStore.Domain.dll
+C:\Users\Curso\source\repos\DevStore\DevStore.Infra\bin\Debug\EntityFramework.dll
+C:\Users\Curso\source\repos\DevStore\DevStore.Infra\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Curso\source\repos\DevStore\DevStore.Infra\bin\Debug\DevStore.Domain.pdb
+C:\Users\Curso\source\repos\DevStore\DevStore.Infra\bin\Debug\EntityFramework.xml
+C:\Users\Curso\source\repos\DevStore\DevStore.Infra\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Curso\source\repos\DevStore\DevStore.Infra\obj\Debug\DevStore.Infra.csprojAssemblyReference.cache
+C:\Users\Curso\source\repos\DevStore\DevStore.Infra\obj\Debug\DevStore.Infra.csproj.CopyComplete
+C:\Users\Curso\source\repos\DevStore\DevStore.Infra\obj\Debug\DevStore.Infra.dll
+C:\Users\Curso\source\repos\DevStore\DevStore.Infra\obj\Debug\DevStore.Infra.pdb
