@@ -1,18 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using DevStore.Domain;
+using DevStore.Infra;
+using System;
 using System.Data;
-using System.Data.Entity;
-using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using System.Web.Http.Description;
-using DevStore.Domain;
-using DevStore.Infra;
+using System.Web.Http.Cors;
 
 namespace DevStore.Api.Controllers
 {
+    /*** CONFIGURAÇÃO DO CORS ***
+     
+        O CORS é um conjunto de regras de sergurança que são utilizadas para limitar quem terá acessso
+        a API desenvolvida. Por exemplo, como ele podemos limitar que, a API só aceitará respostas de um
+        determinado dominio ou ação(Get,post,put e etc).
+
+        origins: Define qual o endereço que poderá utilizar a API
+        headers: Define o tipo de requisição que será aceita (GET,POST,PUT,DELETE e etc).
+        method: Define o método que poderá ser utilizado.
+
+    */
+    [EnableCors(origins: "*", headers:"*",methods:"*")]
     [RoutePrefix("api/v1/public")]
     public class ProductController : ApiController
     {
@@ -35,7 +44,8 @@ namespace DevStore.Api.Controllers
         }
 
         //Colocando entre "{" chaves isso se torna um parametro da url
-        [Route("Categories/{categoryId}/products")]
+        //[Route("Categories/{categoryId}/products")]
+        [Route("categories")]
         public HttpResponseMessage GetProductsByCategoryId(int categoryId)
         {
             var result = db.Products.Include("Category").Where(x =>x.CategoryId== categoryId).ToList();

@@ -24,6 +24,9 @@ namespace DevStore.Api
             //Deixa o retorno com a caixa baixa (LowerCase)
             settings.ContractResolver = new CamelCasePropertyNamesContractResolver();
 
+            //Habilita o CORS - 
+            config.EnableCors();
+
             // Rotas da API da Web
             config.MapHttpAttributeRoutes();
 
